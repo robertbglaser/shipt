@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
  
  function loadHumanGrid(){
      console.log("inside loadHumanGrid");
-     userInput.forEach (function(item, index, humanGridInput){
+     userInput.forEach(function(item, index){
         console.log(item +  " " + index); 
         var cellNum = index +1;
         return {
